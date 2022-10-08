@@ -1,9 +1,9 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import { HOMEPAGE_URL } from "../config";
 import { IoLogoGithub } from "react-icons/io5/index.js";
 import ThemeToggle from "./ThemeToggleButton";
 import FootprintIcon from "./icons/footprint";
+import DropdownMenu from "./DropdownMenu";
 ---
 
 <header class="fixed w-full p-2 z-20 backdrop-blur-md">
@@ -16,13 +16,14 @@ import FootprintIcon from "./icons/footprint";
         </h2>
       </a>
       <div class="items-center gap-6 hidden md:flex">
-        <HeaderLink href="./about">About</HeaderLink>
-        <HeaderLink href="https://github.com/withastro/astro" target="_blank"
+        <HeaderLink href="/about">About</HeaderLink>
+        <HeaderLink href="https://github.com/tanon10" target="_blank"
           ><IoLogoGithub />GitHub</HeaderLink
         >
       </div>
       <div class="flex-1"></div>
       <ThemeToggle client:visible />
+      <DropdownMenu client:visible />
     </nav>
   </div>
 </header>
