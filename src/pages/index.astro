@@ -6,6 +6,7 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 import Content from "../components/Content.astro";
 import { IoArrowForward } from "react-icons/io5";
+import Masthead from "../components/Masthead.astro";
 ---
 
 <!DOCTYPE html>
@@ -16,7 +17,8 @@ import { IoArrowForward } from "react-icons/io5";
   <Body>
     <Header title={SITE_TITLE} />
     <main class="pt-[56px]">
-      <h1 class="font-mplus text-center">Bienvenido a mi portafolio</h1>
+      <Masthead />
+      <!-- <h1 class="font-mplus text-center">Bienvenido a mi portafolio</h1> -->
       <Content>
         <section>
           <p class="mb-8 indent-4">
