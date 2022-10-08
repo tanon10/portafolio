@@ -2,6 +2,7 @@
 import HeaderLink from "./HeaderLink.astro";
 import { HOMEPAGE_URL } from "../config";
 import { IoLogoGithub } from "react-icons/io5/index.js";
+import ThemeToggle from "./ThemeToggleButton";
 import FootprintIcon from "./icons/footprint";
 ---
 
@@ -21,6 +22,7 @@ import FootprintIcon from "./icons/footprint";
         >
       </div>
       <div class="flex-1"></div>
+      <ThemeToggle client:visible />
     </nav>
   </div>
 </header>
