@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'Portafolio - Tanon10';
 export const SITE_DESCRIPTION = 'Conoce un poco sobre mí, mis proyectos, mis conocimientos';
-export const HOMEPAGE_URL='www.tanon10.xyz'
+//export const HOMEPAGE_URL='www.tanon10.xyz'
