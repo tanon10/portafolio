@@ -12,11 +12,12 @@ export interface Props {
     heroImage?: string;
     createdAt?: string;
     updateAt?: string;
+    tags: string[];
   };
 }
 
 const {
-  content: { title, description, heroImage },
+  content: { title, description, heroImage, createdAt },
 } = Astro.props;
 ---
 
@@ -44,12 +45,16 @@ const {
           }
         </div>
         <h1 class="text-3xl my-1 font-mplus">{title}</h1>
-        <div>{description}</div>
+        <div class="mb-4">{description}</div>
+        <span
+          class="mt-6 bg-orange-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
+          >{createdAt}</span
+        >
         <hr class="border-top border-zinc-400 my-4" />
+        <slot />
         <span
           class="underline underline-offset-2 hover:text-orange-500 decoration-orange-500 text-2xl"
         ></span>
-        <slot />
       </Content>
     </main>
     <Footer />
