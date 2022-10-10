@@ -8,6 +8,7 @@ import addClases from "rehype-add-classes";
 // https://astro.build/config
 export default defineConfig({
   site: "https://tanon10.github.io",
+  base: "",
   integrations: [sitemap(), react(), image(), tailwind()],
   markdown: {
     extendDefaultPlugins: true,
