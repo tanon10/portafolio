@@ -31,9 +31,9 @@ export default function DropdownMenu(){
                         <div className="px-3 py-2 uppercase font-bold text-xs">
                          Categorias
                         </div>
-                        <DropdownMenuItem href="/categorias/desk">Desk</DropdownMenuItem>
-                        <DropdownMenuItem href="/categorias/video">Video</DropdownMenuItem>
-                        <DropdownMenuItem href="/categorias/computing">Computing</DropdownMenuItem>
+                        <DropdownMenuItem href="/categorias/computing">Programación</DropdownMenuItem>
+                        <DropdownMenuItem href="/categorias/sciences">Ciencias</DropdownMenuItem>
+                        <DropdownMenuItem href="/categorias/travel">Viajes</DropdownMenuItem>
                     </div>
                 </Menu.Items>
             </Transition>
