@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Tema 3: Tipos de valor y tipos de referencia"
 description: "Este es el tercer tema de los 33 conceptos que todo desarrollador de JS debe conocer"
-createdAt: "31 Oct 2022"
+createdAt: "01 Nov 2022"
 heroImage: "/js03.png"
 tags:
   - Programación
