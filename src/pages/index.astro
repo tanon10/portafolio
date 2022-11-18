@@ -44,10 +44,10 @@ const posts = (await Astro.glob("../pages/posts/*.md")).sort(
         </section>
         <section>
           <h2
-    class="font-mplus font-bold text-xl my-4 underline underline-offset-4 decoration-orange-200 dark:decoration-zinc-700 decoration-4"
-  >
-    Mis conceptos
-  </h2>
+            class="font-mplus font-bold text-xl my-4 underline underline-offset-4 decoration-orange-200 dark:decoration-zinc-700 decoration-4"
+          >
+            Mis conceptos
+          </h2>
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {
               posts.map((post) => (

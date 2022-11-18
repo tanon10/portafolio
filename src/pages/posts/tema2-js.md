@@ -17,9 +17,11 @@ number → utiliza formato IEEE 754 cada numero ocupa 64 bits en la memoria por 
 valores falsos → ‘ ’, null, undefined, NaN
 
 ```javascript
-var t= ''; => //esto me dara undefined
-!t; => //esto me dara V
-!!t; => //esto me dara F
+
+    var t= ''; => //esto me dara undefined
+    !t; => //esto me dara verdadero
+    !!t; => //esto  me dara falso
+
 
 ```
 

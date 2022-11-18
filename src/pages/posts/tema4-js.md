@@ -19,14 +19,13 @@ En los lenguajes que no son compilados el chequeo sera dinámico es decir cuando
 ### Exigencia de tipos
 
 Que tan exigente es un lenguaje para considerar que estamos cometiendo un error de tipos.
+Por ejemplo unir String con objetos o sumar String con enteros o sumar booleanos, todo esto no me dara un error, JS intentara darme un resultado. Por ejemplo:
 
 ```javascript
-/*Por ejemplo unir String con objetos o sumar String con enteros o sumar booleanos, todo esto no me dara un error, JS intentara darme un resultado*/
-//Por ejemplo:
 2 + BigInt(20); //esto me dara error de tipo
 var texto = "hola";
 texto(); /*esto me dara error de tipos tambien, llamar una funcion que no lo es
-  o tratar de acceder a una propiedad de un objeto que es null o undefined*/
+        o tratar de acceder a una propiedad de un objeto que es null o undefined*/
 ```
 
 Si no estamos seguros que tipo de variables estamos operando entonces nos encontraremos con resultados totalmente inesperados.
@@ -36,14 +35,15 @@ Si no estamos seguros que tipo de variables estamos operando entonces nos encont
 Es la conversion implicita de tipos que realiza el motor de JS para poder concretar una operacion. Es decir que JS hara lo mejor que pueda para darnos un resultado. Por lo que es recomendable realizar conversion explicita de tipos. De esto tenemos tres tipos: String, number y boolean
 
 ```javascript
-  String(123) => lo convierte en string
-  Number('3.14') => lo convierte en number
-  Boolean(null) => lo convierte en un booleano
 
-  o tambien usando el metodo .toString()
-  y para el caso de transformar a number le anteponemos el + => +'1234'
-  en caso de booleanos es colocando el ! o !!
+  String(123) => //lo convierte en string
+  Number('3.14') => //lo convierte en number
+  Boolean(null) => //lo convierte en un booleano
+
+
 ```
+
+O tambien usando el metodo .toString() y para el caso de transformar a number le anteponemos el + => +'1234' en caso de booleanos es colocando el ! o !!.
 
 ### Equivalencia y compatibilidad de tipos
 
@@ -55,4 +55,4 @@ Para que dos tipos sean compatibles solo basta con que compartan la estructura q
 
 ### Tipado dinamico - duck Typing
 
-No nos importa de que tipo es un objeto, siempre y cuando tenga los atributos y metodos a los cuales queramos acceder
+No nos importa de que tipo es un objeto, siempre y cuando tenga los atributos y metodos a los cuales queramos acceder.
