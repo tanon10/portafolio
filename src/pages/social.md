@@ -8,8 +8,8 @@ heroImage: "/placeholder-about.jpg"
 
 ¿Cómo estan estimados visitantes 😉?. A continuación les presento las diferentes redes sociales que cuento por el momento. Si deseas mandarme un mensaje directamente recomiendo hacerlo por el enlace de Telegram. La cuál considero mucho más segura y potente que WhatsApp.
 
-<div className='px-8 mx-auto max-w-3xl'>
-    <div class="w-96 mx-auto p-4 bg-white border rounded-lg shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700">
+<div className='px-8 max-w-3xl -mx-12'>
+    <div class="w-96 mx-auto p-6 bg-white border rounded-lg shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700">
         <div class="flex flex-col items-center pb-10">
             <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/48967032?v=4" alt="Avatar image"/>
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
