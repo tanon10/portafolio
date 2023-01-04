@@ -19,7 +19,7 @@ Cuando estudias, ya sea para un examen, escribir un articulo, etc. ¿Qué materi
 
 El segundo consejo fue de parte del profesor Soto Moran, quien es fisico nuclear:
 
-> Tú a lo largo de los años te vas a dar cuenta que la mente es frágil, para obtener un concepto lees libros, pero no uno, si no varios. Ahora, ¿Qué pasa cuando te olvidas de ese concepto? Tú inmediatamente recuerdas en que libro lo leiste y recurres a él, para refrescar ese conocimiento
+> Tú a lo largo de los años te vas a dar cuenta que la mente es frágil, para obtener un concepto lees libros, pero no uno, si no varios. Ahora, ¿Qué pasa cuando te olvidas de ese concepto? Tú inmediatamente recuerdas en que libro lo leiste y recurres a él, para refrescar ese conocimiento.
 
 Ahora,¿porqué comento esto? Es sencillo, porque basicamente me enseñaron como es la manera correcta de aprender y que filtros debemos tener, para saber que información es relevante y cual no.
 Y estos consejos los he aplicado para poder aprender lenguajes de programación u otra tecnología nueva.
@@ -27,4 +27,4 @@ Para poder usar un framework o libreria es escencial saber primero las bases del
 
 Ademas que por lo general es muy recomendable ir a la documentacion oficial de la tecnología que estas usando para poder resolver los inconvenientes. O buscar de manera correcta en los foros, sea el tipo de StackOverflow u otro.
 
-Esta pequeña presentación se a alargado un poco por lo que procedere ahora a dejarte algunos enlaces de las redes sociales con las que cuento para que te puedas comunicar conmigo.
+Esta pequeña presentación se a alargado un poco por lo que procedere ahora a dejarte algunos <a href="/social" className='mt-6 dark:bg-orange-200 dark:text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-300'>enlaces</a> de las redes sociales con las que cuento para que te puedas comunicar conmigo.
